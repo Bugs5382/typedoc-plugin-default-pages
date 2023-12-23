@@ -1,0 +1,21 @@
+{
+  "entryPoints": ["src/api.ts"],
+  "excludeExternals": true,
+  "excludeInternal": true,
+  "includeVersion": false,
+  "githubPages": false,
+  "skipErrorChecking": true,
+  "out": "./docs",
+  "name": "TypeDoc Plugin Default Pages",
+  "navigationLinks": {
+    "GitHub": "https://github.com/Bugs5382/typedoc-plugin-default-pages"
+  },
+  "visibilityFilters": {
+    "protected": true,
+    "private": false,
+    "inherited": false,
+    "external": true,
+    "@alpha": false,
+    "@beta": false
+  }
+}
