@@ -1,9 +1,9 @@
 name: GitHub CI
 on:
   push:
-    branches: [ main, 'develop' ]
+    branches: [ 'main', 'develop' ]
   pull_request:
-    branches: [ 'develop' ]
+    branches: [ 'main', 'develop' ]
 
 jobs:
   Test:
@@ -28,6 +28,14 @@ jobs:
         run: npm install --ignore-scripts
       - name: Run Unit Tests
         run: npm run test:ci
+  Release-Draffter:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+      pull-requests: write
+      id-token: write
+    steps:
       - name: Release Drafter
         uses: release-drafter/release-drafter@v5.25.0
         env:
