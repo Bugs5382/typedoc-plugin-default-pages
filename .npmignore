@@ -1,0 +1,20 @@
+# Folders
+.github
+.idea
+bin
+docs
+src
+temp
+certs
+__tests__
+coverage
+
+# Files
+jest.config.ts
+release.config.js
+release.config.cjs
+*.tgz
+*.json
+*.yml
+.env
+.eslintignore
