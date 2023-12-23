@@ -1,6 +1,5 @@
 
 describe('typedoc plugin default pages - monorepo ', () => {
-
   describe('pages', () => {
     test.todo('...to write')
   })
@@ -10,5 +9,4 @@ describe('typedoc plugin default pages - monorepo ', () => {
   describe('search index', () => {
     test.todo('...to write')
   })
-
 })

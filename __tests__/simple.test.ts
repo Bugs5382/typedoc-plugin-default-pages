@@ -1,5 +1,4 @@
 describe('typedoc plugin default pages - single repo ', () => {
-
   describe('pages', () => {
     test.todo('...to write')
   })
@@ -9,5 +8,4 @@ describe('typedoc plugin default pages - single repo ', () => {
   describe('search index', () => {
     test.todo('...to write')
   })
-
 })
