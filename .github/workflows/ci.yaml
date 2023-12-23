@@ -43,7 +43,7 @@ jobs:
         continue-on-error: true
   Release:
     runs-on: ubuntu-latest
-    needs: [ test ]
+    needs: [ 'Test','Release-Drafter' ]
     permissions:
       contents: write
       issues: write
